@@ -19,7 +19,7 @@ $ cd $BOOTCAMP_HOME/cf-spring-mvc-boot
 . Push the application!
 +
 ----
-$ cf push <some-unique-application-name>
+$ cf push <AppName>
 ----
 +
 You should see output similar to the following listing. Take a look at the listing callouts for a play-by-play of what's happening:
