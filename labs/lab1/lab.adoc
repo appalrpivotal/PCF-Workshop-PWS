@@ -2,10 +2,11 @@
 
 == Target
 
-. If you haven't already, complete the prequisites and environment setup: https://github.com/dbeauregard-pivotal/PCF-Workshop-ESI/blob/master/labs/labaccess.adoc
+. If you haven't already, complete the prequisites and environment setup: 
+link:labs/labaccess.adoc[Get Environment Access]
 
 == Download
-. Download the code, binaries and slides: https://workshopmaterial.cfapps.vca.express-scripts.com (ESI network) or https://github.com/dbeauregard-pivotal/PCF-Workshop-ESI (off the ESI network)
+. Download the code, binaries and slides: https://github.com/dbeauregard-pivotal/PCF-Workshop-PWS
 
 == Push It!
 
@@ -18,7 +19,7 @@ $ cd $BOOTCAMP_HOME/cf-spring-mvc-boot
 . Push the application!
 +
 ----
-$ cf push <some-unique-name>
+$ cf push <some-unique-application-name>
 ----
 +
 You should see output similar to the following listing. Take a look at the listing callouts for a play-by-play of what's happening:
