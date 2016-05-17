@@ -3,7 +3,7 @@
 == Target
 
 . If you haven't already, complete the prequisites and environment setup: 
-link:labs/labaccess.adoc[Get Environment Access]
+link:../labaccess.adoc[Get Environment Access]
 
 == Download
 . Download the code, binaries and slides: https://github.com/dbeauregard-pivotal/PCF-Workshop-PWS
