@@ -1,25 +1,18 @@
 = PCF Environment Access
 
 == Apps Manager UI
-*From on the ESI Network*
-
-. Navigate in a web browser to https://apps.sys.vca.express-scripts.com
-. Accept the self signed certificate warning
-. You will be provided credentials to login by your instructor
-
-*From not on the ESI network (i.e., at home or on guest wifi)*
 
 . Navigate in a web browser to https://run.pivotal.io
-. Create an account (follow all the steps indicated)
+. Create a free account (follow all the steps indicated)
 
 == Target the Environment
 
-. If you haven't already, download the latest release of the Cloud Foundry CLI from https://github.com/cloudfoundry/cli/releases for your operating system and install it. (or https://apps.sys.vca.express-scripts.com/tools)
+. If you haven't already, download the latest release of the Cloud Foundry CLI from https://github.com/cloudfoundry/cli/releases for your operating system and install it. (or https://console.run.pivotal.io/tools)
 
-. Set the API target for the CLI: (set appropriate end point for your PCF environment)
+. Set the API target for the CLI: (https://api.run.pivotal.io)
 +
 ----
-$ cf api https://api.sys.vca.express-scripts.com --skip-ssl-validation
+$ cf api https://api.run.pivotal.io
 ----
 
 . Login to Pivotal Cloudfoundry:
