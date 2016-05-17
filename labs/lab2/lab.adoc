@@ -38,7 +38,7 @@ and you'll get a list of services, their available plans, and descriptions. On P
 The second way is specific to Pivotal Cloudfoundry's Apps Manager UI.
 If you haven't already, login to it by visiting Apps Mgr
 
-Click on the ''Marketplace'' link:
+Click on the ''Marketplace'' link: http://console.run.pivotal.io/
 
 image::lab1.png[]
 
