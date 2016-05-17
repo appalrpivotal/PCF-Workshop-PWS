@@ -1,6 +1,6 @@
-= Pivotal Cloud Foundry 101 Workshop - ESI
+= Pivotal Cloud Foundry 101 Workshop
 
-== Schedule
+== Schedule (update me)
 
 This one day hands-on classroom style session will provide developers with hands on experience with Pivotal Cloud Foundry concepts, architecture and fundamentals of pushing code and building applications. The session includes presentations, demos and hands on labs
 
