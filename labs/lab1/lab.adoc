@@ -7,6 +7,7 @@ link:../labaccess.adoc[Get Environment Access]
 
 == Download
 . Download the code, binaries and slides: https://github.com/dbeauregard-pivotal/PCF-Workshop-PWS
+. Note the folder you download (and uzip if needed).  This location is henceforth refered to as $BOOTCAMP_HOME.
 
 == Push It!
 
