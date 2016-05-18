@@ -5,6 +5,12 @@
 . Navigate in a web browser to https://run.pivotal.io
 . Create a free account (follow all the steps indicated)
 
+== Set the Proxy if needed
+
+. http://docs.cloudfoundry.org/cf-cli/http-proxy.html
+. Linux: export https_proxy=https://myproxy.com:8080
+. Windows: set https_proxy=https://myproxy.com:8080
+
 == Target the Environment
 
 . If you haven't already, download the latest release of the Cloud Foundry CLI from https://github.com/cloudfoundry/cli/releases for your operating system and install it. (or https://console.run.pivotal.io/tools)
