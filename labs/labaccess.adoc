@@ -8,7 +8,7 @@
 == Set the Proxy if needed
 
 * http://docs.cloudfoundry.org/cf-cli/http-proxy.html
-* [Subsitute your proxy values below]
+* [Subsitute your proxy values below. I believe the FedEx proxy is: 'east.network.fedex.com:3128' or 'internet.proxy.fedex.com']
 * Linux: export https_proxy=https://myproxy.com:8080
 * Windows: set https_proxy=https://myproxy.com:8080
 
