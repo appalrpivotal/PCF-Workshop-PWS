@@ -17,7 +17,7 @@ This one day hands-on classroom style session will provide developers with hands
 * Session 7: link:presentations/7-Hands-on_Lab.pdf[Hands On Lab]
 * Session 8: link:presentations/8-Wrapup.pdf[Wrapup]
 
-* Developer Workshop
+== Developer Workshop
 ** Pre-work
 *** link:labs/labaccess.adoc[Get Environment Access]
 ** Lab 1 - From Zero to Pushing Your First Application
