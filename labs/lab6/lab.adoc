@@ -2,32 +2,33 @@
 
 [abstract]
 --
-In this lab you will create your own Spring Boot web application from scratch and deploy it to PCF.
+In this lab you will create your own Spring Boot web application from scratch and deploy it to PCF.  Spring Boot makes it easy and fast to develop Java Apps with Spring.
+This lab will require developing and compiling code.
 --
 
 == Requirements
-This lab will require developing and compiling code.  You will need your favorite IDE (i.e., Spring Source Tool Suite - based on Eclipse), Java (JDK) and a build tool (Maven or Gradle).
-. https://spring.io/tools/sts
-. http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
-. https://maven.apache.org/
-. https://gradle.org/
+You will need your favorite IDE (i.e., Spring Source Tool Suite - based on Eclipse), Java (JDK) and a build tool (Maven or Gradle).
+
+* https://spring.io/tools/sts
+* http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+* https://maven.apache.org/
+* https://gradle.org/
 
 == Spring.io
 
 http://spring.io is the home for all things Spring, including Spring Boot.  It includes:
-. Documentation
-. Getting Started Guides
-. Spring Projects
-. Q&A and Forum
-. Blog
+
+* Documentation
+* Getting Started Guides
+* Spring Projects
+* Q&A and Forum
+* Blog
 
 == Spring Boot
 
 Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run". We take an opinionated view of the Spring platform and third-party libraries so you can get started with minimum fuss. Most Spring Boot applications need very little Spring configuration.
 
-== Getting Started - start.spring.io
-
-http://start.spring.io
+== Getting Started - http://start.spring.io
 
 Go to http://start.spring.io to create and download a template project.
 
