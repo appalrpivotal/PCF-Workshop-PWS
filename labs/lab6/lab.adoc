@@ -30,7 +30,22 @@ Spring Boot makes it easy to create stand-alone, production-grade Spring based A
 
 == Getting Started - http://start.spring.io
 
-Go to http://start.spring.io to create and download a template project.
+. Go to http://start.spring.io to create and download a template project.
+. Select if you want to use 'Maven' or 'Gradle' as your build tool.  (You will need the tool you select installed on your computer)
+. Set the group (aka package) you want to use for your project (e.g., 'com.fedex').
+. Set the Artifact to the name you want for your project.
+. Search for and add the 'Web' and 'Actuator' dependancies.
+. Click Generate Project.  This will create the project, zip it up, and download it.
+. Go to where you downloaded the zip and unzip it if your OS didn't automatically
+
+image::lab6-1.png[]
+
+== Open and Explore the project in your IDE
+
+. Open your favorite IDE, i.e., STS (Eclipse)
+. Import the Maven or Gradle project
+.. In Eclipse, with Maven you do: File -> Import -> Maven -> Existing Maven Project
+
 
 Add a REST controller
 
