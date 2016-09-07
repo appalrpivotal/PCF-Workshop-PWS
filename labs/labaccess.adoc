@@ -1,21 +1,23 @@
 = PCF Environment Access
 
+* You may have already completed some of these steps in the pre-requisites.  Please verify that all steps were completed before proceeding.
+
 == Apps Manager UI
 
 . Navigate in a web browser to https://run.pivotal.io
 . Create a free account (follow the steps indicated to create your account and org)
 . *IMPORTANT: We will be following the lab instructions on this page, not the getting started lab on run.pivotal.io*
 
-== Set the Proxy if needed
-
-* http://docs.cloudfoundry.org/cf-cli/http-proxy.html
-* [Subsitute your proxy values below. I believe the FedEx proxy is: 'east.network.fedex.com:3128' or 'internet.proxy.fedex.com']
-* Linux: export https_proxy=https://myproxy.com:8080
-* Windows: set https_proxy=https://myproxy.com:8080
-
+//== Set the Proxy if needed
+//
+//* http://docs.cloudfoundry.org/cf-cli/http-proxy.html
+//* [Subsitute your proxy values below. I believe the FedEx proxy is: 'east.network.fedex.com:3128' or 'internet.proxy.fedex.com']
+//* Linux: export https_proxy=https://myproxy.com:8080
+//* Windows: set https_proxy=https://myproxy.com:8080
+//
 == Target the Environment
 
-. If you haven't already, download the latest release of the Cloud Foundry CLI from https://github.com/cloudfoundry/cli/releases for your operating system and install it. (or https://console.run.pivotal.io/tools)
+. If you haven't already, download the latest release of the Cloud Foundry CLI from https://console.run.pivotal.io/tools for your operating system and install it.  This will require Admin rights to install.
 
 . Set the API target for the CLI: (https://api.run.pivotal.io)
 +
@@ -29,7 +31,7 @@ $ cf api https://api.run.pivotal.io
 $ cf login
 ----
 +
-. Follow the prompts and login with the account from above.
+. Follow the prompts and login with the account you created above.
 
 == The Labs
 link:../README.adoc[You are now ready to start Lab 1]
