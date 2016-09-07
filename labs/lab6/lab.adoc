@@ -50,9 +50,7 @@ image::lab6-1.png[]
 .. Click on the tab (i.e., "pom.xml") to view the raw content.
 . Open and explore the one Class that was created for you in 'src/main/java', under the package you specified above.
 . Add the requisite hello world message to the end of the main method.
-----
-System.out.println("Hello Cloud Native Conference");
-----
+.. `System.out.println("Hello Cloud Native Conference");`
 . Run your project
 .. Right Click on the project and select "Run as -> Spring Boot Application"
 . Check out the logs
