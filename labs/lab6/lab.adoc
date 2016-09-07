@@ -57,3 +57,9 @@ image::lab6-1.png[]
 
 
 == Add a REST controller ==
+
+== Push the application! ==
+
+----
+$ cf push <AppName>
+----
