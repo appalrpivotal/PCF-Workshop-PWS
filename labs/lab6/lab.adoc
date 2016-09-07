@@ -55,8 +55,15 @@ image::lab6-1.png[]
 .. Right Click on the project and select "Run as -> Spring Boot Application"
 . Check out the logs
 
-
 == Add a REST controller ==
+
+. Add a new Class or inner Class.
+. Annotate the class with `@RestController` to make it a REST Controller.
+. Add a method to handle an endpont that returns a String and takes no arguments.
+. Annotate the method with '@RequestMapping'.  This will default to the "/" path and 'GET' operation
+. Return some message.  E.g., `return "{\"text\":\"Hello Cloud Native Conference in REST\"}";`
+. Run or Restart your application
+. Navigate in a browser to http://localhost:8080/
 
 == Push the application! ==
 
