@@ -3,7 +3,7 @@
 [abstract]
 --
 In this lab you will create your own Spring Boot web application from scratch and deploy it to PCF.  Spring Boot makes it easy and fast to develop Java Apps with Spring.
-This lab will require developing and compiling code.
+This is and Advanced Lab.  This lab will require developing and compiling code.  The instructions assume you know the basics and will skip over standard details.
 --
 
 == Requirements
