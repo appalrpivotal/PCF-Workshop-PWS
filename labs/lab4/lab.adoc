@@ -20,7 +20,7 @@ Application developers can view application logs using the CF CLI.
 . Let's view recent log messages for the application.  For this lab you can use the Java, Ruby, or Node.js sample app.  In each of the commands below replace _workshop_ with the name of your deployed application:
 +
 ----
-$ cf logs workshop --recent
+$ cf logs <App-Name> --recent
 ----
 +
 Here are two interesting subsets of one output from that command:
@@ -57,7 +57,7 @@ These events are properly interleaved based on time, giving you an accurate pict
 . To get a running ``tail'' of the application logs rather than a dump, simply type:
 +
 ----
-$ cf logs workshop
+$ cf logs <App-Name>
 ----
 +
 You can try various things like refreshing the browser and triggering stop/start events to see logs being generated.
@@ -69,7 +69,7 @@ Cloud Foundry's http://docs.cloudfoundry.org/concepts/architecture/#hm9k[Heatlh 
 . If you don't have one already running, start a log tail for `workshop`.  Alternatively, you could view the logs using the papertrail app.
 +
 ----
-$ cf logs workshop
+$ cf logs <App-Name>
 ----
 
 . If you do not have more than one application instance running, execute the scale command to scale to 2 or more application instances.  Visit the application in the browser, and click on the ``Kill Switch'' button. This button will trigger a JVM exit with an error code (`System.exit(1)`), causing the Health Manager to observe an application instance crash:
@@ -132,7 +132,7 @@ Take a look at the events that have transpired so far for our deployment of `wor
 
 ====
 ----
-$ cf events workshop
+$ cf events <App-Name>
 Getting events for app workshop in org TELCO / space gammon as admin...
 
 time                          event                 actor      description
@@ -157,7 +157,7 @@ Here we see the `app.create` event, which created our application's record and s
 . Let's explicitly ask for the application to be stopped:
 +
 ----
-$ cf stop workshop
+$ cf stop <App-Name>
 Stopping app workshop in org TELCO / space gammon as admin...
 OK
 ----
@@ -183,7 +183,7 @@ time                          event                 actor      description
 . Start the application again:
 +
 ----
-$ cf start workshop
+$ cf start <App-Name>
 Starting app workshop in org TELCO / space gammon as admin...
 
 0 of 5 instances running, 5 starting
@@ -218,7 +218,7 @@ buildpack: java-buildpack=v3.0-offline-https://github.com/cloudfoundry/java-buil
 . And again, view the additional `app.update` event:
 +
 ----
-$ cf events workshop
+$ cf events <App-Name>
 Getting events for app workshop in org TELCO / space gammon as admin...
 
 time                          event                 actor      description
