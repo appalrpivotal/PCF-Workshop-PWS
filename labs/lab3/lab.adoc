@@ -157,9 +157,3 @@ image::lab6.png[]
 . This is how blue-green deployments are accomplished.
 +
 image::blue-green.png[]
-
-== Accessing Container Contents
-
-SSH into your app container via 'cf ssh APP_NAME' 
-
-Reference: https://docs.pivotal.io/pivotalcf/customizing/diego-ssh/access-apps.html
